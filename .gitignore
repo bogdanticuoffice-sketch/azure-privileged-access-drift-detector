@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Config
+config.yaml
+
+# Output
+snapshots/
+output/
+*.log
+*.csv
+*.json
+
+# Exceptions for keeping examples
+!config.yaml.example
+!/snapshots/.gitkeep
+!/output/.gitkeep
